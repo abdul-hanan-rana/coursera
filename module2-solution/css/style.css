@@ -1,4 +1,4 @@
-*{
+        *{
 			box-sizing: border-box;
 
 		}
@@ -29,8 +29,8 @@
 		.data{
 		 border: 1px solid black;
          padding-top: 40px;
-         padding-right: 5px;
-         padding-left: 5px;
+         padding-right: 7px;
+         padding-left: 7px;
          background-color: #FCD2CA;
          height: 170px;
          font-family: Helvetica;
