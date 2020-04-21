@@ -1,24 +1,23 @@
-        *{
-			box-sizing: border-box;
 
-		}
-		h1{
-			margin-bottom: 30px;
-			text-align: center;
-			font-weight: 25%;
-			font-family: calibri;
-			color: orange;
+* {
+  box-sizing: border-box;
+}
 
-		}
-		.sectiontitle{
-	     border: 1px;
+h1 {
+  text-align: center;
+  color: cornflowerblue;
+  font-family: Helvetica;
+}
+
+.box {
+
+    border: 1px;
     top :10px;
-    right:10px;
-    background-color: pink;
+    background-color: cornflowerblue;
     position: absolute;
     width: 20%;
     font-family: Helvetica;
-    float: right;
+    float: left;
     padding: 5px;
     height: 15%; 
     text-align: center;
@@ -26,164 +25,73 @@
     color: white;
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
     border: 1px solid black;
-		}
-		.data{
-		   border: 1px solid black;
+
+}
+
+.text {
+
+
+
+  border: 1px solid black;
   padding-top: 40px;
   padding-right: 7px;
   padding-left: 7px;
-  background-color: #f1f1f3;
+  background-color: #f1f1f1;
   height: 170px;
   font-family: Helvetica;
   margin: 0px;
   text-align: justify;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-         }		
-		.row{
-			width:100%;
-		}
-		@media(min-width: 992px){
-			.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4,
-			.col-lg-5,.col-lg-6 ,.col-lg-7, .col-lg-8,
-			.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
-            float: left;
-            position: relative;
-            box-sizing: border-box;
-            padding: 10px;
-          
-			}
-			.col-lg-1{
-               width:8.33%;
-			}
-			.col-lg-2{
-				width:16.66%;
-			}
-			.col-lg-3{
-				width:25%;
-			}
-			.col-lg-4{
-				width:33%;
-			}
-			.col-lg-5{
-				width:41.66%;
-			}
-			.col-lg-6{
-				width:50%;
-			}
-			.col-lg-7{
-				width:58.33%;
-			}
-			.col-lg-8{
-				width:66.66%;
-			}
-			.col-lg-9{
-				width:74.99%;
-			}
-			.col-lg-10{
-				width:83.33%;
-			}
-			.col-lg-11{
-				width:91.66%;
-			}
-			.col-lg-12{
-				width:100%;
-			}
-			
-		}
-		@media(min-width: 768px) and (max-width: 991px){
-			.col-t-1, .col-t-2, .col-t-3, .col-t-4,
-			.col-t-5,.col-t-6 ,.col-t-7, .col-t-8,
-			.col-t-9,.col-t-10,.col-t-11,.col-t-12{
-            float: left;
-            position: relative;
-            box-sizing: border-box;
-            padding: 10px;
-            
-			}
-			.col-t-1{
-               width:8.33%;
-			}
-			.col-t-2{
-				width:16.66%;
-			}
-			.col-t-3{
-				width:25%;
-			}
-			.col-t-4{
-				width:33%;
-			}
-			.col-t-5{
-				width:41.66%;
-			}
-			.col-t-6{
-				width:50%;
-			}
-			.col-t-7{
-				width:58.33%;
-			}
-			.col-t-8{
-				width:66.66%;
-			}
-			.col-t-9{
-				width:74.99%;
-			}
-			.col-t-10{
-				width:83.33%;
-			}
-			.col-t-11{
-				width:91.66%;
-			}
-			.col-t-12{
-				width:100%;
-			}
-			
-		}
-		@media(max-width: 767px){
-			.col-m-1, .col-m-2, .col-m-3, .col-m-4,
-			.col-m-5,.col-m-6 ,.col-m-7, .col-m-8,
-			.col-m-9,.col-m-10,.col-m-11,.col-m-12{
-            float: left;
-            position: relative;
-            box-sizing: border-box;
-            padding: 10px;
-              
-			}
-			.col-m-1{
-               width:8.33%;
-			}
-			.col-m-2{
-				width:16.66%;
-			}
-			.col-m-3{
-				width:25%;
-			}
-			.col-m-4{
-				width:33%;
-			}
-			.col-m-5{
-				width:41.66%;
-			}
-			.col-m-6{
-				width:50%;
-			}
-			.col-m-7{
-				width:58.33%;
-			}
-			.col-m-8{
-				width:66.66%;
-			}
-			.col-m-9{
-				width:74.99%;
-			}
-			.col-m-10{
-				width:83.33%;
-			}
-			.col-m-11{
-				width:91.66%;
-			}
-			.col-m-12{
-				width:100%;
-			}
-			
-		}
-	
+}
+
+/* Simple Responsive Framework. */
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+ 
+}
+  .col-lg-4 {
+    width: 33.33%;
+    padding: 10px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    position: relative;
+  box-sizing: border-box;
+    
+    }
+  .col-md-6 {
+    width: 50%;
+    padding: 10px;
+  }
+  .col-md-12 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+    .col-sm-12 {
+      float: left;
+      position: relative;
+      box-sizing: border-box;
+
+    }
+    .col-sm-12 {
+      width: 100%;
+      padding: 10px;
+    }
+  }
