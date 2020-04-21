@@ -31,15 +31,24 @@
 			margin-left: auto;
 			font-family: Helvetica;
 			color:white;
-			padding: 5px;
+			padding-top: 40px;
 			text-orientation:right; 
 		}
 		#123{
-			background-color: #A52A2A;
-			margin-top: 10px;
-			margin-left: 10px;
-			margin-right: 10px;
-			margin-bottom: 10px;
+		 border: 1px;
+    top :10px;
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 20%;
+    font-family: Helvetica;
+    float: left;
+    padding: 5px;
+    height: 15%; 
+    text-align: center;
+    margin: 0px;
+    color: white;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
 		}
 		.row{
 			width:100%;
@@ -51,6 +60,7 @@
 			.col-lg-5,.col-lg-6 ,.col-lg-7, .col-lg-8,
 			.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
                float :left;
+               position:relative;
                border: 1px white;
           
 			}
@@ -97,6 +107,7 @@
 			.col-t-5,.col-t-6 ,.col-t-7, .col-t-8,
 			.col-t-9,.col-t-10,.col-t-11,.col-t-12{
                float :left;
+               position: relative;
                 border: 1px  white;
             
 			}
@@ -143,6 +154,7 @@
 			.col-m-5,.col-m-6 ,.col-m-7, .col-m-8,
 			.col-m-9,.col-m-10,.col-m-11,.col-m-12{
                float :left;
+               position: relative;
                 border: 1px white;
               
 			}
