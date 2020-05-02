@@ -21,13 +21,14 @@ body{
   display: none;
 }
 
-.aaa{
+.name{
 
 color: #B80303;
   font-weight: bold;
 text-align: left;
 margin-left:  20px;
 margin-top: 7px;
+text-shadow: 2px 2px #ED7373;
 }
 table{
   border-color: black;
@@ -49,7 +50,6 @@ color:white;}
 
 }
 
-/* Style the hamburger menu */
 .topnav a.icon {
   background: white;
   display: block;
@@ -115,7 +115,7 @@ p {
   font-family: Helvetica;
   margin: 0px;
   text-align: justify;
-  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 9px 0 grey;
   overflow: hidden;
 }
 
@@ -170,7 +170,7 @@ p {
   }
 }
 
-/********** Small devices only **********/
+
 @media (max-width: 767px) {
     
   .col-sm-12 {
